@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CotacaoDoDolar.View.PaginaCotacao">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#2f3136">
+                <Frame BackgroundColor="#7289da" Margin="15" CornerRadius="20" class="fundo">
+                    <StackLayout>
+
+                        <Frame>
+                            <Label FontSize="20" Text="{Binding Atualizacao}"/>
+                        </Frame>
+
+                        <Frame>
+                            <StackLayout HorizontalOptions="Center">
+                                <Label Text="Dolar (Convertido)" FontSize="25"/>
+
+                                <Label Text="{Binding ValorDolar}" FontSize="72"/>
+                            </StackLayout>
+                        </Frame>
+
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Grid.Column="0" Grid.Row="0">
+                                <StackLayout class="SL">
+                                    <Label Text="Menor" FontSize="18" TextColor="#39ff14"/>
+                                    <Label Text="{Binding ValorMenor}" FontSize="22"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame Grid.Column="1" Grid.Row="0">
+                                <StackLayout class="SL">
+                                    <Label Text="Variação" FontSize="18"/>
+                                    <Label Text="{Binding ValorVariacao}" FontSize="22"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame Grid.Column="2" Grid.Row="0">
+                                <StackLayout class="SL">
+                                    <Label Text="Maior" FontSize="18" TextColor="Red"/>
+                                    <Label Text="{Binding ValorMaior}" FontSize="22"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+
+                        <StackLayout Margin="0,10,0,0" Spacing="10">
+                            <Frame>
+                                <StackLayout Spacing="15">
+                                    <Label Text="Converter para BRL" />
+                                    <Entry Placeholder="Informe o valor em dolar" Text="{Binding TextoParaBRL}"/>
+
+                                    <Button Text="Converter" Command="{Binding ConverterParaBRL}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame>
+                                <Label Text="{Binding ResultParaBRL}"/>
+                            </Frame>
+
+                            <Frame>
+                                <StackLayout Spacing="15">
+                                    <Label Text="Converter para USD"/>
+                                    <Entry Placeholder="Informe o valor em reais" Text="{Binding TextoParaUSD}"/>
+
+                                    <Button Text="Converter" Command="{Binding ConverterParaUSD}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame>
+                                <Label Text="{Binding ResultParaUSD}"/>
+                            </Frame>
+
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

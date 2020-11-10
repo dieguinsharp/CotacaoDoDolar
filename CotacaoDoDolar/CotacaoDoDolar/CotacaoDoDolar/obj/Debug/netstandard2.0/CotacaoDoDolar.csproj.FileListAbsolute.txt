@@ -1,0 +1,13 @@
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\View\PaginaCotacao.xaml.g.cs
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\CotacaoDoDolar.AssemblyInfoInputs.cache
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\CotacaoDoDolar.AssemblyInfo.cs
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\CotacaoDoDolar.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\bin\Debug\netstandard2.0\CotacaoDoDolar.deps.json
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\bin\Debug\netstandard2.0\CotacaoDoDolar.dll
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\bin\Debug\netstandard2.0\ref\CotacaoDoDolar.dll
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\bin\Debug\netstandard2.0\CotacaoDoDolar.pdb
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\CotacaoDoDolar.dll
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\ref\CotacaoDoDolar.dll
+C:\Users\Diego\Desktop\CotacaoDolar\CotacaoDoDolar\CotacaoDoDolar\CotacaoDoDolar\obj\Debug\netstandard2.0\CotacaoDoDolar.pdb

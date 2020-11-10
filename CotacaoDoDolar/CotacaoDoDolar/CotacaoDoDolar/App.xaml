@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CotacaoDoDolar.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontPrincipal">
+                <On Platform="Android" Value="Ubuntu-Regular.ttf#Ubuntu-Regular"/>
+            </OnPlatform>
+
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource FontPrincipal}"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style TargetType="Grid">
+                <Setter Property="ColumnSpacing" Value="15"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+
+            <Style TargetType="Frame">
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="BackgroundColor" Value="#4563cc"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+
+            <Style TargetType="Frame" Class="fundo">
+                <Setter Property="Margin" Value="15"/>
+                <Setter Property="BackgroundColor" Value="#7289da"/>
+                <Setter Property="CornerRadius" Value="20"/>
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="BackgroundColor" Value="#6481e4"/>
+                <Setter Property="FontFamily" Value="{StaticResource FontPrincipal}"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="25"/>
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="White"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style TargetType="StackLayout" Class="SL">
+                <Setter Property="Spacing" Value="5"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
